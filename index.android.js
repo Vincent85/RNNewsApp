@@ -1,4 +1,4 @@
 import {AppRegistry} from 'react-native'
-import {MyNavigator} from './app/StackNavApp'
+import RootPage from './app/Root'
 
-AppRegistry.registerComponent("RNNewsApp",()=>MyNavigator);
+AppRegistry.registerComponent("RNNewsApp",()=>RootPage);
