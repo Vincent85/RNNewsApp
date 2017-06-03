@@ -28,6 +28,8 @@ class WeChatPage extends Component {
 
 const weChatNavigator = StackNavigator({
 	WeChat: {screen: WeChatPage}
+},{
+  headerMode: 'none',
 });
 const styles = StyleSheet.create({
 

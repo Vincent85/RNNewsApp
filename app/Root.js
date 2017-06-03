@@ -29,11 +29,13 @@ const RootPage = TabNavigator({
 	swipeEnabled: false,
 	tabBarOptions: {
 		showIcon: true,
-		iconStyle: {width:40,height:40},
+		iconStyle: {width:20,height:20,marginTop:0,marginBottom:0},
 		indicatorStyle: {height: 0},
-		style: {backgroundColor: 'lightgray'},
+		style: {backgroundColor: 'lightgray',height:50},
 		labelStyle: {
 		    fontSize: 12,
+		    marginBottom:5,
+		    marginTop:5,
 		    color: 'darkgreen'
 		},
 	}

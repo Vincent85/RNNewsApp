@@ -30,6 +30,8 @@ class UCPage extends Component {
 
 const ucNavigator = StackNavigator({
 	UC: {screen: UCPage}
+},{
+  headerMode: 'none',
 });
 const styles = StyleSheet.create({
 
